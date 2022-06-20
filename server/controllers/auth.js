@@ -5,6 +5,7 @@ const User = require('../models/user');
 // and save user to database
 // check if user already exists
 // if user exists, return error
+// and
 // if user does not exist, create user and return user
 const register = async (req, res) => {
     try {
