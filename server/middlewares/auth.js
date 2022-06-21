@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const Role = require('../models/role');
 
+
 // authentication function with JWT token
 const authenticateUser = async (req, res, next) => {
     try {
