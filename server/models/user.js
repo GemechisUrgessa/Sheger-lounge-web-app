@@ -10,6 +10,7 @@ const SALT_FACTOR = 10;
 // password hashed before saving
 // method to compare password
 // method to generate token
+// user schema
 const userSchema = new mongoose.Schema(
     {
         phoneNumber: {
